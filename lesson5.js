@@ -11,5 +11,5 @@ here's the link:
 
 Avaiable for : Windows, mac and Linux
 
-Download and install and we meet on the nexts lesson 😎
+Download and install and we meet on the next lesson 😎
 */
