@@ -1,13 +1,6 @@
 //Varaibles 
-//its a simples placeholder to your store your data type
-// In JS a data type can be:
+//its a simples placeholder to your store your infrmation like: 
 /*
- String
- Number
- Boolean 
- Date
- Object
- Undefined
 
  to declare a varaible you  have three 'ways'
  but i don't recomend the first one
