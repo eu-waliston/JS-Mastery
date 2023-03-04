@@ -9,7 +9,8 @@ let animes = [
     "Naruto",
     "Dragon Ball",
     "Air TV",
-    "Mnemosine"
+    "Mnemosine",
+    "One piece"
 ]
 
 
