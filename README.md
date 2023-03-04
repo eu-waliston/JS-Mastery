@@ -3,4 +3,11 @@
 ## In this repository, i will post 101 javascript lessons to improve myself and anyone that like JS
 
 ## Frequency 
-  - Only Weekends
+- Only Weekends
+
+## References
+- https://www.w3schools.com/js/
+
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+- https://www.freecodecamp.org/
