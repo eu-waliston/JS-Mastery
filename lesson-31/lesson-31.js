@@ -13,7 +13,8 @@ switch (gender) {
         break;
     case "M":
         console.log("M");
-
+        break;
     default:
+        console.log("Nothing :(");
         break;
 }
