@@ -11,11 +11,11 @@ class Person {
     }
 
     eat() {
-        console.log(`${this.name} is eating`);
+        console.log(`${his.name} is eating`);
     }
 
-    toStringMethod(){
-        return `Name: ${this.name}\n, Gender: ${this.gender}\n Age: ${this.age}`
+    toString(){
+        return Person.toString()
     }
 }
 
