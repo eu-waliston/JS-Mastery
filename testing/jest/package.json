@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.21.5"
   }
 }
