@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1684586878315" clover="3.2.0">
+  <project timestamp="1684586878315" name="All files">
+    <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="8" coveredelements="8" complexity="0" loc="5" ncloc="5" packages="1" files="2" classes="2"/>
+    <file name="array.js" path="/home/wal/Documents/My Studies/JS-Mastery/testing/jest/src/array.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+    <file name="math.js" path="/home/wal/Documents/My Studies/JS-Mastery/testing/jest/src/math.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="4" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
