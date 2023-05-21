@@ -4,11 +4,11 @@ const app = request('../api')
 
 let testServer
 beforeAll(() => {
-  testServer = app.listen(4000);
+  testServer = app.listen(4000)
 });
 
 afterAll((done) => {
-  testServer.close(done);
+  testServer.close(done)
 });
 
 describe("GET /api/users", () => {
@@ -25,6 +25,11 @@ describe("GET /api/users", () => {
 
 describe('GET /api/users/:id',  () => {
   it('Should GET a exercise', async() => {
-    
+    const response = await request(app).get("/api/users/1")
+
+    expect(response.error).toBe(false)
+    expect(response.status).toBe(200)
+    expect(response.body.body).not.toBeNull()
+    expect(response.body.body.id).toBe("1")
   })
 })
