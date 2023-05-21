@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest --runInBand"
   },
-  "jest" : {
-    "testEnvironment" : "node"
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [
     "jest",

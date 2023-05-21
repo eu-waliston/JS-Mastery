@@ -22,3 +22,9 @@ describe("GET /api/users", () => {
     expect(response.body.body.length).toBe(2);
   });
 });
+
+describe('GET /api/users/:id',  () => {
+  it('Should GET a exercise', async() => {
+    
+  })
+})
