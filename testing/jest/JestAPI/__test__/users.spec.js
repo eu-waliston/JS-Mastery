@@ -33,3 +33,21 @@ describe('GET /api/users/:id',  () => {
     expect(response.body.body.id).toBe("1")
   })
 })
+
+describe('POST /api/users', () => {
+  it('Should POST a new user', async () => {
+    const userId = nanoid()
+    let user = {
+      id: userId,
+      name: "Nuevo ususario",
+      username: "nuevo_usuario"
+    }
+
+    const response = (await request(app).post('/api/users')).setEncoding(user)
+
+    expect(response.error).toBe(false)
+    expect(response.status).toBe(200)
+    expect(response.body.body).not.toBeNull()
+    expect(response.body.body.id).toBe(userId)
+  })
+})
